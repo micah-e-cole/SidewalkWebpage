@@ -1,0 +1,216 @@
+#modal-skip-holder, #modal-comment-holder {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    text-align: justify;
+}
+
+#modal-skip-background, #modal-comment-background {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    background: rgba(255, 255, 255, 0.5);
+    visibility: hidden;
+    height: 100%;
+    width: 110%;
+}
+
+#modal-skip-box, #modal-comment-box {
+    background: rgba(255, 255, 255, 1);
+    color: rgba(80, 80, 80, 1);
+    font-size: 13pt;
+    padding: 10px;
+    position: relative;
+    top: 35%;
+    left: 8px;
+    visibility: visible;
+    width: 720px;
+    z-index: 1;
+
+    border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+}
+
+#modal-skip-box .overlay-option {
+    background-color: rgb(220, 220, 220);
+}
+
+#modal-skip-box .overlay-option:hover  {
+    background-color: rgb(190, 190, 190);
+}
+
+.modal-skip-cancel-button-holder {
+    text-align: right;
+}
+
+.modal-foreground {
+    top: 110px;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    height: 496px;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(80, 80, 80, 1);
+    font-size: 14pt;
+    position: absolute;
+    min-height: 480px;
+    border: 5px solid black;
+
+    border-radius: 3px 3px 3px 3px;
+    z-index: 4;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+}
+
+.modal-foreground h1 {
+    font-size: 18pt;
+    margin: 3px 0 10px 0;
+}
+
+.modal-foreground h2 {
+    font-size: 16pt;
+    margin: 3px 0 10px 0;
+
+}
+
+.modal-foreground h3 {
+    font-size: 14pt;
+    margin: 3px 0 5px 0;
+}
+
+.modal-foreground p {
+    font-size: 12pt;
+}
+
+.modal-foreground .table {
+    margin-bottom: 10px !important;
+}
+
+.modal-foreground th, .modal-foreground td {
+    padding: 3px !important;
+    font-size: 9pt;
+    font-weight: normal;
+}
+
+.modal-foreground .col-right {
+    width: 30%;
+    text-align: center;
+}
+
+.modal-foreground #modal-mission-complete-message {
+    font-size: 11pt;
+}
+
+.modal-foreground .blue-btn {
+    color: white;
+    font-size: 14pt;
+}
+
+.modal-foreground .btn-primary {
+    color: white;
+    background: #3182bd;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-size: 14pt;
+    opacity: 1.0;
+}
+
+.modal-foreground .btn-secondary {
+    color: black;
+    background: white;
+    cursor: pointer;
+    border: 1px solid black;
+    font-size: 14pt;
+    opacity: 1.0;
+}
+
+.modal-foreground .btn-loading {
+    color: white;
+    background: #7f7f7f;
+    cursor: wait;
+    border: 1px solid transparent;
+    font-size: 14pt;
+    opacity: 0.35;
+}
+
+.modal-foreground .button {
+    width: 100%;
+}
+.modal-foreground .mapbox{
+    position: relative;
+}
+.modal-foreground .mapbox #map-legend {
+    font-size: 8pt;
+    position: absolute;
+    top: 360px;
+    right: 20px;
+    width: 145px;
+    height: 55px;
+    border-radius: 3px;
+    background-color: rgba(240,240,240,1);
+}
+
+.modal-foreground .mapbox #map-legend .legend-label {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.legend-label {
+    margin-right: 5px;
+}
+
+.modal-foreground .mapbox #map-legend #green-square {
+    fill: rgba(20,220,120,1);
+}
+
+.modal-foreground .mapbox #map-legend #blue-square {
+    fill: rgba(70,130,180,1);
+}
+
+.modal-foreground .mapbox #map-legend #gray-square {
+    fill: rgba(100,100,100,1);
+}
+
+#modal-comment-textarea {
+    height: 100px;
+    width: 100%;
+    margin: 5px 0 10px 0;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+}
+
+#modal-mission-complete-map {
+    position: absolute;
+    width: 530px;
+    height: 420px;
+}
+
+.modal-mission-left-column-images {
+    width: 100%;
+    padding: 25px 0 0 0;
+}
+
+#modal-mission-complete-holder {
+    visibility: hidden;
+}
+
+#modal-mission-complete-foreground {
+    visibility: hidden;
+}
+
+#modal-mission-complete-holder .button {
+    width: 100%;
+}
+
+.modal-background {
+    position: absolute;
+    left: -55px;
+    top: 0;
+    background: rgba(255, 255, 255, 0.5);
+    height: 100%;
+    width: 110%;
+}

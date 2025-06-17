@@ -1,0 +1,8 @@
+{
+    "not-applicable": "niet toepasbaar",
+    "none": "geen",
+    "correct": "Gevalideerd juist",
+    "incorrect": "Gevalideerd onjuist",
+    "unsure": "$t(common:unsure)",
+    "unvalidated": "Niet gevalideerd"
+}

@@ -1,0 +1,156 @@
+/* For now, this file holds the CSS for maps on the website, except for the legends. */
+.choropleth-container {
+    position: relative;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+#landing-choropleth-container {
+    min-height: 1100px;
+}
+
+.choropleth-holder {
+    height: 100%;
+}
+
+#user-dashboard-choropleth-holder, #access-score-choropleth-holder {
+    position: relative;
+}
+
+.choropleth {
+    position: relative;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 800px;
+}
+
+#user-dashboard-choropleth {
+    height: 100%;
+}
+
+#labelmap-choropleth, #admin-labelmap-choropleth {
+    margin-top: 25px;
+}
+
+#access-score-choropleth {
+    min-height: 640px;
+    height: calc(100% - 116px);
+}
+
+#admin-task-choropleth {
+    width: 360px;
+    height: 360px;
+    margin-top: 50px;
+}
+
+/* Overwriting Mapbox popup styling. */
+.mapboxgl-popup-content {
+    padding: 12px; /* Default 10px 10px 15px */
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25); /* Default 0 1px 2px rgb(0 0 0/10%) */
+    border-radius: 10px; /* Default 3px */
+}
+
+/* Common legend components. */
+.legend {
+    height: inherit;
+    width: 250px;
+}
+
+.legend span, .legend label {
+    display: block;
+    float: right;
+    height: 15px;
+    text-align: left;
+    font-size: 16px;
+    color: #808080;
+}
+.legend span {
+    width: 10%;
+}
+
+#legend-percentages-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#legend-percentages-container label {
+    padding: 0;
+}
+
+.map-legend-circle-icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.map-legend-circle-icon circle {
+    cx: 50%;
+    cy: 50%;
+}
+
+#map-legend-curb-ramp circle {
+    fill: #90C31F;
+}
+#map-legend-no-curb-ramp circle {
+    fill: #E679B6;
+}
+#map-legend-obstacle circle {
+    fill: #78B0EA;
+}
+#map-legend-surface-problem circle {
+    fill: #F68D3E;
+}
+#map-legend-no-sidewalk circle {
+    fill: #BE87D8;
+}
+#map-legend-crosswalk circle {
+    fill: #FABF1C;
+}
+#map-legend-signal circle {
+    fill: #63C0AB;
+}
+#map-legend-other circle {
+    fill: #B3B3B3;
+    stroke: #0000FF;
+}
+#map-legend-occlusion circle {
+    fill: #B3B3B3;
+    stroke: #009902;
+}
+#map-legend-correct img {
+    width: 23px;
+    padding: 3px;
+}
+#map-legend-incorrect img {
+    width: 23px;
+    padding: 3px;
+}
+#map-legend-unsure img {
+    width: 18px;
+    height: 18px;
+    padding: 2px 2px 2px 6px;
+}
+#map-legend-unvalidated img {
+    width: 14px;
+    padding: 1px 1px 1px 9px;
+}
+#map-legend-audited-street svg, #map-legend-unaudited-street svg {
+    width: 20px;
+    height: 20px;
+}
+#map-legend-audited-street path {
+    stroke: black;
+    stroke-width: 3;
+}
+#map-legend-unaudited-street path {
+    stroke: grey;
+    stroke-width: 3;
+}
+#map-legend-polling-location {
+    width: 20px;
+    height: 20px;
+}
+
+.clearfix {
+    width: 100%;
+}

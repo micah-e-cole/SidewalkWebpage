@@ -1,0 +1,149 @@
+.table-fixed thead {
+    width: 97%;
+}
+.table-fixed tbody {
+    height: 230px;
+    overflow-y: auto;
+    width: 100%;
+}
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+    display: block;
+}
+.table-fixed tbody td, .table-fixed thead > tr> th {
+    float: left;
+    border-bottom-width: 0;
+}
+
+#user-table-container {
+    overflow-x: scroll;
+    -webkit-transform: rotateX(180deg); /* Moves scrollbar to top for easier navigation. */
+    width: 110%;
+}
+#user-table_wrapper {
+    -webkit-transform: rotateX(180deg); /* Adding scrollbar flips all text, this flips it back. */
+    font-size: 11px;
+    min-height: 290px;
+}
+
+.stats-grid {
+    display: flex;
+}
+
+.stats-grid > p {
+    flex: 1;
+}
+
+.role-dropdown .dropdown-toggle, .role-dropdown li, .team-dropdown .dropdown-toggle, .team-dropdown li {
+    font-size: 11px;
+}
+
+#admin-percentage-legend {
+    display: block;
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+    background: rgb(255, 255, 255);;
+    width: 325px;
+    font-family: 'Raleway', sans-serif;
+    padding: 6px 6px 0px 6px;
+}
+
+.legend label, .legend span {
+    width: 10%;
+    font-size: 8px;
+}
+
+#map-label-legend {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.75);
+    left: 25px;
+    width: 400px;
+    bottom: 10px;
+    border: solid 1px #ccc;
+}
+
+#map-legend-title {
+    vertical-align:middle;
+    width:90%;
+    padding-left:10px;
+    margin-top:5px
+}
+
+#map-legend-minimize-button {
+    margin-right: 10px;
+    margin-top: 5px;
+    width: 20px;
+}
+
+#map-label-legend .table {
+    margin-bottom: 0;
+}
+
+#map-label-legend table td {
+    border-top: 0;
+}
+
+#legend-table>tbody>tr>td {
+    padding: 2px 8px;
+}
+
+.set-flags-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flag-date-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.datepicker {
+    margin: 10px;
+}
+
+.date-submit {
+    margin: 10px;
+}
+
+.date-submit-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#flag-input-holder {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#flag-input-title {
+    margin: 0px;
+    padding-top: 10px;
+}
+
+#flag-input-description {
+    text-align: left;
+}
+
+#flag-button-holder {
+    display: flex;
+    padding-top: 10px;
+}
+
+.flag-button {
+    height: 50px;
+    width: 179px;
+    background-color: white;
+    margin-right: 2px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: lightgrey;
+}
+
+#neighborhood-completion-rate {
+    max-height: 700px;
+    overflow-y: auto;
+}

@@ -1,0 +1,8 @@
+{
+    "not-applicable": "not applicable",
+    "none": "none",
+    "correct": "Validated correct",
+    "incorrect": "Validated incorrect",
+    "unsure": "$t(common:unsure)",
+    "unvalidated": "Unvalidated"
+}

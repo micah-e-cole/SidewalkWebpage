@@ -1,0 +1,93 @@
+.gallery-filter {
+    cursor: pointer;
+}
+
+.gallery-filter:disabled {
+    cursor: default;
+    opacity: 50%;
+    pointer-events: none;
+}
+
+.severity-filter-image {
+    background-color: white;
+    width: 25px;
+}
+
+.severity-filter-image svg {
+    fill: white;
+    transition: fill 0.3s;
+}
+
+.severity-filter-image.severity-1.selected svg, .severity-filter-image.severity-1.highlight svg {
+    fill: #f4db48;
+}
+.severity-filter-image.severity-2.selected svg, .severity-filter-image.severity-2.highlight svg {
+    fill: #f1bc41;
+}
+.severity-filter-image.severity-3.selected svg, .severity-filter-image.severity-3.highlight svg {
+    fill: #ee9d3a;
+}
+.severity-filter-image.severity-4.selected svg, .severity-filter-image.severity-4.highlight svg {
+    fill: #eb7e32;
+}
+.severity-filter-image.severity-5.selected svg, .severity-filter-image.severity-5.highlight svg {
+    fill: #e85f2b;
+}
+
+.severity-filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30px;
+}
+
+#severity-select {
+    display: flex;
+    flex-direction: row;
+    margin-left: -3px;
+}
+
+.gallery-filter-button, .gallery-tag {
+    padding: 0px 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    text-align: left;
+    background-color: white;
+    color: black;
+    border-color: black;
+    width: fit-content;
+    white-space: nowrap;
+    max-width: 98%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.gallery-filter-button-selected {
+    background-color: #76c9ab;
+    color: white;
+    border-color: #76c9ab;
+}
+
+.gallery-filter-button:hover {
+    background-color: rgba(167,222,202,0.1);
+    color: #40bd90;
+    border-color: #40bd90;
+    white-space: normal;
+}
+
+.gallery-filter-validation-button {
+    display: block;
+    margin: 4px 2px;
+}
+
+#clear-filters {
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+#clear-filters h6 {
+    margin-top: 5px;
+    color: darkgray;
+}
